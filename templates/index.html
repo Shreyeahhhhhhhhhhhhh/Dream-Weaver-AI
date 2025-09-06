@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Weaver AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Dream Weaver AI 📖✨</h1>
+        <p>Enter a simple idea, and we'll weave a magical, illustrated story for you.</p>
+        
+        <div class="input-area">
+            <textarea id="prompt-input" placeholder="e.g., A brave squirrel who wants to fly to the moon"></textarea>
+            <button id="generate-btn">Weave My Story</button>
+        </div>
+
+        <div id="loader" class="hidden">
+            <div class="spinner"></div>
+            <p>Weaving your story... this may take a moment!</p>
+        </div>
+
+        <div id="story-container" class="hidden">
+            <div id="storybook">
+                </div>
+            <div class="navigation">
+                <button id="prev-btn" class="hidden">Previous</button>
+                <span id="page-indicator"></span>
+                <button id="next-btn" class="hidden">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
