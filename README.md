@@ -1,4 +1,4 @@
-# Dream Weaver AI 📖✨
+# Dream Weaver  📖✨
 
 Dream Weaver is an interactive web application that generates unique, illustrated, and narrated children's stories from a simple text prompt. This project leverages the power of locally-run AI language models to create a complete storytelling experience, transforming a single idea into a multi-page digital storybook—all for free.
 
