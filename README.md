@@ -58,11 +58,6 @@ Install the required Python packages.
 Bash
 pip install -r requirements.txt
 
-Of course. Here is a complete and polished README.md file for your Dream Weaver project.
-
-You can create a file named README.md in the main dream-weaver folder and paste the content below into it. When you push this file to GitHub, it will automatically appear as the front page of your repository.
-
-Markdown
 
 # Dream Weaver AI 📖✨
 
